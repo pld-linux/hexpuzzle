@@ -1,0 +1,11 @@
+diff -urN hexpuzzle-orig/hexpuzzle hexpuzzle/hexpuzzle
+--- hexpuzzle-orig/hexpuzzle	2004-01-13 09:30:50.000000000 +0100
++++ hexpuzzle/hexpuzzle	2004-02-05 22:43:24.836130728 +0100
+@@ -1,6 +1,6 @@
+ #!/usr/bin/wish
+ 
+-if {[file isdirectory /usr/local/lib/hexpuzzle]} {cd  /usr/local/lib/hexpuzzle}
++if {[file isdirectory @@DATADIR@@]} {cd  @@DATADIR@@}
+ 
+ source pieces.colours
+ set colour(bg)  azure3;		# background fill
