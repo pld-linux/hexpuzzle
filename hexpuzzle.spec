@@ -11,6 +11,7 @@ Patch0:		%{name}-datadir.patch
 URL:		ftp://ibiblio.org/pub/Linux/games
 Requires:	tk
 BuildRequires:	sed
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
