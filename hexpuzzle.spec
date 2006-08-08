@@ -25,7 +25,7 @@ jednej z trzech ró¿nych tac.
 
 %prep
 %setup -q -n %{name}
-%patch -p1
+%patch0 -p1
 
 %clean
 rm -rf $RPM_BUILD_ROOT
