@@ -1,5 +1,5 @@
 Summary:	Hex Puzzle 22
-Summary(pl):	£amig³ówka Hex Puzzle 22
+Summary(pl.UTF-8):   ÅamigÅ‚Ã³wka Hex Puzzle 22
 Name:		hexpuzzle
 Version:	1.1
 Release:	1
@@ -18,10 +18,10 @@ Hex Puzzle 22 is a tessellation puzzle based on Beat The Computer #22.
 Players must fit all of the multi-hexagon pieces into one of three
 different trays.
 
-%description -l pl
-Hex Puzzle 22 to uk³adanka oparta na Beat The Computer #22. Gracze
-musz± dopasowaæ wszystkie kawa³ki sk³adaj±ce siê z sze¶ciok±tów do
-jednej z trzech ró¿nych tac.
+%description -l pl.UTF-8
+Hex Puzzle 22 to ukÅ‚adanka oparta na Beat The Computer #22. Gracze
+muszÄ… dopasowaÄ‡ wszystkie kawaÅ‚ki skÅ‚adajÄ…ce siÄ™ z szeÅ›ciokÄ…tÃ³w do
+jednej z trzech rÃ³Å¼nych tac.
 
 %prep
 %setup -q -n %{name}
