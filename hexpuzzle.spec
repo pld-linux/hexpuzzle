@@ -1,5 +1,5 @@
 Summary:	Hex Puzzle 22
-Summary(pl.UTF-8):   Łamigłówka Hex Puzzle 22
+Summary(pl.UTF-8):	Łamigłówka Hex Puzzle 22
 Name:		hexpuzzle
 Version:	1.1
 Release:	1
