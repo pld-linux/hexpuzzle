@@ -27,9 +27,6 @@ jednej z trzech różnych tac.
 %setup -q -n %{name}
 %patch0 -p1
 
-%clean
-rm -rf $RPM_BUILD_ROOT
-
 %build
 mv -f hexpuzzle{,~}
 sed 's#@@DATADIR@@#%{_datadir}/%{name}#g' <hexpuzzle~ >hexpuzzle
@@ -41,6 +38,9 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_datadir}/%{name}}
 install hexpuzzle $RPM_BUILD_ROOT%{_bindir}
 install pieces.* $RPM_BUILD_ROOT%{_datadir}/%{name}
 install menus $RPM_BUILD_ROOT%{_datadir}/%{name}
+
+%clean
+rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
