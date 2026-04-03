@@ -2,7 +2,7 @@ Summary:	Hex Puzzle 22
 Summary(pl.UTF-8):	Łamigłówka Hex Puzzle 22
 Name:		hexpuzzle
 Version:	1.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Emulators
 Source0:	ftp://ibiblio.org/pub/Linux/games/%{name}-%{version}.tgz
